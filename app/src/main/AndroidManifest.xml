@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.the_season_of_the_song">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="그때 그 노래"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SelectMenu"
+            android:label="기능 선택"></activity>
+        <activity android:name=".InputThatSeason"
+            android:label="계절로 노래 찾기"
+            android:parentActivityName=".SelectMenu"></activity>
+        <activity android:name=".InputTitle"
+            android:windowSoftInputMode="adjustNothing"
+            android:label="노래로 계절 찾기"
+            android:parentActivityName=".SelectMenu"></activity>
+        <activity android:name=".GiveTheTitle"
+            android:label="노래로 계절 찾기"
+            android:parentActivityName=".InputTitle"></activity>
+        <activity android:name=".TellTheSeason"
+            android:label="계절로 노래 찾기"
+            android:parentActivityName=".InputThatSeason"
+            ></activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

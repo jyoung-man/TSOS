@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/artist_season"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="18dp"
+        android:text="가수"
+        android:textSize="32dp"  />
+    <TextView
+
+        android:id="@+id/title_season"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_marginLeft="18dp"
+        android:text="노래제목"
+        android:textSize="32dp" />
+
+    <ImageView
+        android:id="@+id/image_season"
+        android:layout_width="wrap_content"
+        android:layout_height="244dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/year_season"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/rain_season"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/temp_season"
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:layout_marginLeft="20dp"
+        android:padding="5dp"
+        android:text="TextView"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/home_season"
+        android:layout_width="330dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_button"
+        android:text="홈으로"
+        android:textColor="#ffffff"  />
+
+</LinearLayout>

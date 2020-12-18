@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/cd_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"
+        android:background="@drawable/cd" />
+
+    <TextView
+        android:id="@+id/its_title"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_toEndOf="@+id/cd_image"
+        android:layout_toRightOf="@+id/cd_image"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="엄마 용돈 좀 보내주세요"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/its_album"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/its_artist"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_toEndOf="@+id/cd_image"
+        android:layout_toRightOf="@+id/cd_image"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="장범준 3집" />
+
+    <TextView
+        android:id="@+id/its_artist"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/its_title"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_toEndOf="@+id/cd_image"
+        android:layout_toRightOf="@+id/cd_image"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="장범준" />
+</RelativeLayout>
