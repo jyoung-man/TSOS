@@ -33,3 +33,6 @@
 1월~2월에 유행한 노래는 이전 해 겨울을 선택하여 조회 가능합니다.
 
 예) 2000년 겨울을 선택하였을 때 2001년 1월~2월 노래 조회 가능
+
+### 발표 영상
+https://konkukackr-my.sharepoint.com/:v:/g/personal/jyp13_konkuk_ac_kr/EZabDaYHvclBtZU4LuGzn0UBCUs4cxwPro3Z9wwf_oelLw?e=4%3aI3repV&at=9
